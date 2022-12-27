@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech turtles restaurant</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+     <!--font awsome cdn link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+     <!--custom css file link-->
+     <link rel="stylesheet" href="style.css">
+    
+
+
+</head>
+<body>
+    <!--header section starts-->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>resto.</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">reviews</a>
+    
+        </nav>
+        <div class="icons">
+           <i class="fas fa-bars" id="menu-bars"></i>
+           <i class="fas fa-search" id="search-icon"></i>
+           <a href="#" class="fas fa-heart"></a>
+           <a href="cart.php" class="fas fa-shopping-cart"></a>
+          
+        </div>
+    </header>
+    <!--header section stops-->
+
+<!--search-form-->
+<form action="" id ="search-form">
+    <input type="search" placeholder="search here...." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+
+<!--home section starts-->
+<section class="home" id="home">
+    <div class="swiper  home-slider">
+        <div class="swiper-wrapper wrapper">
+
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>spicy noodles</h3>
+                    <p>Spicy noodles are absolutely fiery delicious, a perfect balance of HOT with a good dose of umami and a tad bit of sweet.</p>
+                    <a href="place_order11.php" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/img1.png" alt="">  
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>hot pizza</h3>
+                    <p>Pizzas are typically made in Italy in brick-fire ovens and served hot on the plate. If the pizza is not eaten hot, it becomes a boring food though its taste remains great as ever.</p>
+                    <a href="place_order10.php" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/img2.jpg" alt="">  
+                </div>
+            </div>
+            
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>rasmalai</h3>
+                    <p>Ras malai consists of flattened balls of chhena soaked in malai (clotted cream) flavoured with cardamom</p>
+                    <a href="place_order9.php" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/img3.jpg" alt="">  
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+<!--home section ends-->
+
+<!--dishes section starts-->
+<section class="dishes" id="dishes">
+
+    <h3 class="sub-heading">our dishes</h3>
+    <h1 class="heading">popular dishes</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish1.jpg" alt="">
+            <h3>pasta</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs.100</span>
+            <a href="cart.php" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish2.jpg" alt="">
+            <h3>cheese corn momos</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs.80</span><br>
+            <a href="cart.php" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish3.jpg" alt="">
+            <h3>dark chocolate cake</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs.80</span><br>
+            <a href="cart.php" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish4.jpg" alt="">
+            <h3>double patty veg burger</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs.100</span><br>
+            <a href="cart.php" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish5.png" alt="">
+            <h3>cheese veg sticks</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs.90</span><br>
+            <a href="cart.php" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish6.jpg" alt="">
+            <h3>creamy rose rolls</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs.110</span><br>
+            <a href="cart.php" class="btn">add to cart</a>
+        </div>
+
+    </div>
+</section>
+<!--dishes section ends-->
+
+<!--about section starts-->
+<section class="about" id="about">
+    <h3 class="sub-heading">about us</h3>
+    <h1 class="heading">why choose us?</h1>
+
+    <div class="row">
+        
+        <div class="image">
+            <img src="images/dish2.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>best food in the country</h3>
+            <p>This restaurant had a such a good cozy vibe and they have put up all sorts of authentic art lanterns and paintings giving it a homely look.And coming to the food it was so delicious and there menu is so unique and intresting,and each day has there special dishes which are the best.I would definitefly give techy resto a hundrecent percent 5 star.Please check it out and dont miss out!!!</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>free delivery</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>easy payment</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 serivce</span>
+                </div>
+            </div>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+</section>
+<!--about section ends-->
+
+<!--menu section starts-->
+<section class="menu" id="menu">
+    <h3 class="sub-heading">our menu</h3>
+    <h1 class="heading">todays speciality</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+               <img src="images/menu1.jpg" alt="">
+               <a href="#" class="fas fa-heart"></a>
+            </div>   
+            <div class="content">
+               <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+               </div>
+               <h3>tandoori paneer pizza</h3>
+               <p>A Tandoori style with paneer and homemade dough using no-knead receipe inspired by Jim Lahey</p>
+               <a href="place_order8.php" class="btn">order now</a>
+               <span class="price">Rs.150</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+               <img src="images/menu2.jpg" alt="">
+               <a href="#" class="fas fa-heart"></a>
+            </div> 
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>strawberry pie</h3>
+              <p>strawberry pie with fresh strawberries coated in light starwberry glaze and topped with whipped cream</p>
+              <a href="place_order7.php" class="btn">order now</a>
+              <span class="price">Rs.100</span>
+            </div>
+        </div>    
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu3.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>    
+            <div class="content">
+               <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+               </div>
+               <h3>gol gappe</h3>
+               <p>cripsy-fried puffed ball with chatpat potato and flavored water with usually tamarind or mint and popped into one's mouth</p>
+               <a href="place_order6.php" class="btn">order now</a>
+               <span class="price">Rs.80</span>
+            </div>
+        </div>    
+
+        <div class="box">
+            <div class="image">
+               <img src="images/menu4.jpg" alt="" id="img1">
+               <a href="#" class="fas fa-heart"></a>
+            </div>   
+            <div class="content">
+               <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+               </div>
+               <h3>Jelabi with rabdi</h3>
+               <p>jelabi's are Indian dessert made by deep-frying a wheat flour batter in pretzel which are then soaked in sugar syrup</p>
+               <a href="place_order.php" class="btn" >order now</a>
+               <span class="price">Rs.150</span>
+            </div>
+        </div>    
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu5.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>    
+            <div class="content">
+               <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+               </div>
+               <h3>dahi kachori</h3>
+               <p>Indian street food made with all purpose flour and has rich fillig made up of large variety of ingredients and poured with curd</p>
+               <a href="place_order1.php" class="btn">order now</a>
+               <span class="price">Rs.90</span>
+            </div>
+        </div>    
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu6.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>    
+            <div class="content">
+               <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+               </div>
+               <h3>lasagna</h3>
+               <p>A rich and creamy whole wheat pasta dish filled layer by layer with refreshingly fresh onions and garlic</p>
+               <a href="place_order2.php" class="btn">order now</a>
+               <span class="price">Rs.130</span>
+            </div>
+        </div>    
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu7 (1).jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>    
+            <div class="content">
+               <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+               </div>
+               <h3>veg paneer kathi rolls</h3>
+               <p>Stuffing is lip-smacking paneer tikka made on skillet,a vibrant green chuteny and a crunchy mixed vegge salad</p>
+               <a href="place_order3.php" class="btn">order now</a>
+               <span class="price">Rs.100</span>
+            </div>
+        </div>    
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu8.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>    
+            <div class="content">
+               <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+               </div>
+               <h3>paneer biryani</h3>
+               <p>Sloe cooked layered casserole of paneer cubes in a cued based gravy,fried onions and par cooked rice flavored with spices</p>
+               <a href="place_order4.php" class="btn">order now</a>
+               <span class="price">Rs.100</span>
+            </div>
+        </div>    
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu9.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>    
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+               <h3>blackforest cupcake</h3>
+               <p>Rich chocolate cupcake filled with blueberry wipped cream</p>
+               <a href="place_order5.php" class="btn">order now</a>
+               <span class="price">Rs.110</span>
+            </div>
+        </div>  
+    </div>
+</section>
+<!--menu section ends-->
+
+<!--review section starts-->
+<section class="review" id="review">
+    <h3 class="sub-heading">customers review</h3>
+    <h1 class="heading">what they say</h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <div class="user-info">
+                        <h3>Blue</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>the service quality is really good,and the food is really really good.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <div class="user-info">
+                        <h3>Pumpkin</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>the service quality is really good,and the food is really really good.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <div class="user-info">
+                        <h3>pat</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>the service quality is really good,and the food is really really good.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <div class="user-info">
+                        <h3>pran</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>the service quality is really good,and the food is really really good.</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!--review section ends-->
+
+
+
+<!--footer section starts-->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">dishes</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">reviews</a>
+            <a href="#">order</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+123-456-7890</a>
+            <a href="#">+111-222-3333</a>
+            <a href="#">shravy1202@gmail.com</a>
+            <a href="#">yash1603@gmail.com</a>
+            <a href="#">banglore, india - 400104</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+    </div>
+    <div class="credit">copyright @2022 by <span>Tech Turtles</span></div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<!--custom js file link-->
+<script src="script.js">
+    
+
+
+</script>
+</body>
+</html>
